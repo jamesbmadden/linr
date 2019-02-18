@@ -1,0 +1,25 @@
+{
+  "name": "linr",
+  "version": "1.0.0",
+  "description": "Web App For Memorising Lines",
+  "main": "src/index.ts",
+  "author": "James Madden",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@polymer/lit-element": "^0.6.5",
+    "@webcomponents/webcomponentsjs": "^2.2.1",
+    "focus-visible": "^4.1.5",
+    "webpack-cli": "^3.1.2"
+  },
+  "devDependencies": {
+    "ts-loader": "^5.3.2",
+    "typescript": "^3.2.2",
+    "webpack": "^4.28.2",
+    "webpack-dev-server": "^3.1.13"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  }
+}

@@ -1,0 +1,1 @@
+export const accent = '#2196f3';
